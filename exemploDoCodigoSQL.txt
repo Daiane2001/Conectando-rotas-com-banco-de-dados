@@ -1,0 +1,26 @@
+//Exemplo do código MySql rodando com XAMPP
+CREATE DATABASE bancoProd;
+USE bancoProd;
+
+CREATE TABLE produtos (
+cod INT(11) PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(45) NOT NULL,
+descri VARCHAR(45) NOT NULL,
+qtda INT(11) NOT NULL,
+fabricante VARCHAR(45) NOT NULL,
+datahora DATETIME NOT NULL
+);
+
+INSERT INTO produtos VALUES (1,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (2,'T�nis','Branco e preto',3,'Adidas','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (3,'Blusa','Cinza',3,'Rose','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (4,'Caneca','Marrom',1,'Santos','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (5,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (6,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (7,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (8,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (9,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (10,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (11,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (12,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
+INSERT INTO produtos VALUES (13,'Caneta','azul',3,'Bic','2021-03-23T15:23:45.000Z');
